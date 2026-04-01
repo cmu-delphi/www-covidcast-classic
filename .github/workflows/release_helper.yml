@@ -97,7 +97,7 @@ jobs:
           title: 'update to COVIDcast Classic ${{ needs.create_release.outputs.tag_name }}'
           labels: feat
           # reviewers:
-          assignees: melange396
+          assignees: nolangormley
           body: |
             update to [COVIDcast Classic ${{ needs.create_release.outputs.tag_name }}](https://github.com/cmu-delphi/www-covidcast-classic/releases/${{ needs.create_release.outputs.tag_name }})
 
@@ -124,6 +124,6 @@ jobs:
           title: 'chore: sync main->dev'
           labels: chore
           # reviewers:
-          assignees: melange396
+          assignees: nolangormley
           body: |
             Syncing Main->Dev.
